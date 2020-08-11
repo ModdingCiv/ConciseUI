@@ -152,8 +152,6 @@
       <File>modules/_log/additions/cui_gameinfo.lua</File>
       <File>modules/_log/additions/cui_log.lua</File>
       <File>modules/_log/additions/cui_log.xml</File>
-      <File>modules/_options/additions/cui_options_button.lua</File>
-      <File>modules/_options/additions/cui_options_button.xml</File>
       <File>modules/_options/additions/cui_options_menu.lua</File>
       <File>modules/_options/additions/cui_options_menu.xml</File>
     </ImportFiles>
@@ -169,7 +167,6 @@
       <File>modules/victory_tracking/additions/cui_victory_tracking.xml</File>
       <File>modules/world_tracker/additions/cui_city_status.xml</File>
       <File>modules/_log/additions/cui_log.xml</File>
-      <File>modules/_options/additions/cui_options_button.xml</File>
       <File>modules/_options/additions/cui_options_menu.xml</File>
     </AddUserInterfaces>
   </InGameActions>
@@ -268,8 +265,6 @@
     <File>modules/_log/additions/cui_gameinfo.lua</File>
     <File>modules/_log/additions/cui_log.lua</File>
     <File>modules/_log/additions/cui_log.xml</File>
-    <File>modules/_options/additions/cui_options_button.lua</File>
-    <File>modules/_options/additions/cui_options_button.xml</File>
     <File>modules/_options/additions/cui_options_menu.lua</File>
     <File>modules/_options/additions/cui_options_menu.xml</File>
     <File>modules/_options/base/options.lua</File>
