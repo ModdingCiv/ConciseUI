@@ -69,9 +69,6 @@
       <File>modules/deal_panel/support/cui_deal_support.lua</File>
       <File>modules/leader_icons/support/cui_leader_icon_support.lua</File>
       <File>modules/popup_and_remind/support/cui_tech_civic_support.lua</File>
-      <File>modules/production_panel/support/cui_production_data.lua</File>
-      <File>modules/production_panel/support/cui_production_support.lua</File>
-      <File>modules/production_panel/support/cui_production_ui.lua</File>
       <File>modules/trade_panel/support/cui_trade_route_support.lua</File>
       <File>modules/victory_tracking/support/cui_victory_support.lua</File>
       <File>modules/world_tracker/support/cui_tracker_support.lua</File>
@@ -105,8 +102,6 @@
       <File>modules/popup_and_remind/base/greatworkshowcase.lua</File>
       <File>modules/popup_and_remind/base/researchchooser.lua</File>
       <File>modules/popup_and_remind/base/techciviccompletedpopup.lua</File>
-      <File>modules/production_panel/base/productionpanel.lua</File>
-      <File>modules/production_panel/base/productionpanel.xml</File>
       <File>modules/trade_panel/base/tradeoriginchooser.lua</File>
       <File>modules/trade_panel/base/tradeoriginchooser.xml</File>
       <File>modules/trade_panel/base/tradeoverview.lua</File>
@@ -265,11 +260,6 @@
     <File>modules/popup_and_remind/expansion1/historicmoments.lua</File>
     <File>modules/popup_and_remind/expansion2/historicmoments.lua</File>
     <File>modules/popup_and_remind/support/cui_tech_civic_support.lua</File>
-    <File>modules/production_panel/base/productionpanel.lua</File>
-    <File>modules/production_panel/base/productionpanel.xml</File>
-    <File>modules/production_panel/support/cui_production_data.lua</File>
-    <File>modules/production_panel/support/cui_production_support.lua</File>
-    <File>modules/production_panel/support/cui_production_ui.lua</File>
     <File>modules/screenshot/additions/cui_screenshot.lua</File>
     <File>modules/screenshot/additions/cui_screenshot.xml</File>
     <File>modules/spy_info/additions/cui_spy_info.lua</File>
