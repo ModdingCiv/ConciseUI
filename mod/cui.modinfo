@@ -4,7 +4,7 @@
     <Name>[COLOR_Civ6LightBlue]Concise UI[ENDCOLOR]</Name>
     <Teaser>For a better gaming experience.</Teaser>
     <Description>Concise UI greatly improves the game experience by modifying the vanilla UI and adding new UI elements to the game.[NEWLINE][NEWLINE]Game Version: 1.0.1.501 (504666)</Description>
-    <Authors>eudaimonia</Authors>
+    <Authors>eudaimonia, Kevin van Rijn</Authors>
     <AffectsSavedGames>0</AffectsSavedGames>
     <CompatibleVersions>2.0</CompatibleVersions>
   </Properties>
@@ -148,10 +148,6 @@
       <File>modules/leader_icons/additions/cui_leader_icon_tt.xml</File>
       <File>modules/map_options/additions/cui_map_options.lua</File>
       <File>modules/map_options/additions/cui_map_options.xml</File>
-      <File>modules/notes/additions/cui_note_button.lua</File>
-      <File>modules/notes/additions/cui_note_button.xml</File>
-      <File>modules/notes/additions/cui_note_screen.lua</File>
-      <File>modules/notes/additions/cui_note_screen.xml</File>
       <File>modules/popup_and_remind/additions/cui_remind_panel.lua</File>
       <File>modules/popup_and_remind/additions/cui_remind_panel.xml</File>
       <File>modules/screenshot/additions/cui_screenshot.lua</File>
@@ -180,8 +176,6 @@
       </Properties>
       <File>modules/leader_icons/additions/cui_leader_icon_tt.xml</File>
       <File>modules/map_options/additions/cui_map_options.xml</File>
-      <File>modules/notes/additions/cui_note_button.xml</File>
-      <File>modules/notes/additions/cui_note_screen.xml</File>
       <File>modules/popup_and_remind/additions/cui_remind_panel.xml</File>
       <File>modules/screenshot/additions/cui_screenshot.xml</File>
       <File>modules/spy_info/additions/cui_spy_info.xml</File>
@@ -262,10 +256,6 @@
     <File>modules/map_tacks/base/mappinlistpanel.xml</File>
     <File>modules/map_tacks/base/mappinpopup.lua</File>
     <File>modules/map_tacks/base/mappinpopup.xml</File>
-    <File>modules/notes/additions/cui_note_button.lua</File>
-    <File>modules/notes/additions/cui_note_button.xml</File>
-    <File>modules/notes/additions/cui_note_screen.lua</File>
-    <File>modules/notes/additions/cui_note_screen.xml</File>
     <File>modules/popup_and_remind/additions/cui_remind_panel.lua</File>
     <File>modules/popup_and_remind/additions/cui_remind_panel.xml</File>
     <File>modules/popup_and_remind/base/civicschooser.lua</File>
