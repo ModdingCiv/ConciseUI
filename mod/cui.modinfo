@@ -139,8 +139,6 @@
       <File>modules/leader_icons/additions/cui_leader_icon_tt.xml</File>
       <File>modules/map_options/additions/cui_map_options.lua</File>
       <File>modules/map_options/additions/cui_map_options.xml</File>
-      <File>modules/popup_and_remind/additions/cui_remind_panel.lua</File>
-      <File>modules/popup_and_remind/additions/cui_remind_panel.xml</File>
       <File>modules/spy_info/additions/cui_spy_info.lua</File>
       <File>modules/spy_info/additions/cui_spy_info.xml</File>
       <File>modules/unit_list/additions/cui_unitlist_button.lua</File>
@@ -165,7 +163,6 @@
       </Properties>
       <File>modules/leader_icons/additions/cui_leader_icon_tt.xml</File>
       <File>modules/map_options/additions/cui_map_options.xml</File>
-      <File>modules/popup_and_remind/additions/cui_remind_panel.xml</File>
       <File>modules/spy_info/additions/cui_spy_info.xml</File>
       <File>modules/unit_list/additions/cui_unitlist_button.xml</File>
       <File>modules/unit_list/additions/cui_unitlist_screen.xml</File>
@@ -240,8 +237,6 @@
     <File>modules/map_options/base/selectedunit.lua</File>
     <File>modules/map_options/base/unitflagmanager.lua</File>
     <File>modules/map_options/base/worldviewiconsmanager.lua</File>
-    <File>modules/popup_and_remind/additions/cui_remind_panel.lua</File>
-    <File>modules/popup_and_remind/additions/cui_remind_panel.xml</File>
     <File>modules/popup_and_remind/base/civicschooser.lua</File>
     <File>modules/popup_and_remind/base/greatworkshowcase.lua</File>
     <File>modules/popup_and_remind/base/researchchooser.lua</File>
