@@ -141,8 +141,6 @@
       <File>modules/map_options/additions/cui_map_options.xml</File>
       <File>modules/popup_and_remind/additions/cui_remind_panel.lua</File>
       <File>modules/popup_and_remind/additions/cui_remind_panel.xml</File>
-      <File>modules/screenshot/additions/cui_screenshot.lua</File>
-      <File>modules/screenshot/additions/cui_screenshot.xml</File>
       <File>modules/spy_info/additions/cui_spy_info.lua</File>
       <File>modules/spy_info/additions/cui_spy_info.xml</File>
       <File>modules/unit_list/additions/cui_unitlist_button.lua</File>
@@ -168,7 +166,6 @@
       <File>modules/leader_icons/additions/cui_leader_icon_tt.xml</File>
       <File>modules/map_options/additions/cui_map_options.xml</File>
       <File>modules/popup_and_remind/additions/cui_remind_panel.xml</File>
-      <File>modules/screenshot/additions/cui_screenshot.xml</File>
       <File>modules/spy_info/additions/cui_spy_info.xml</File>
       <File>modules/unit_list/additions/cui_unitlist_button.xml</File>
       <File>modules/unit_list/additions/cui_unitlist_screen.xml</File>
@@ -252,8 +249,6 @@
     <File>modules/popup_and_remind/expansion1/historicmoments.lua</File>
     <File>modules/popup_and_remind/expansion2/historicmoments.lua</File>
     <File>modules/popup_and_remind/support/cui_tech_civic_support.lua</File>
-    <File>modules/screenshot/additions/cui_screenshot.lua</File>
-    <File>modules/screenshot/additions/cui_screenshot.xml</File>
     <File>modules/spy_info/additions/cui_spy_info.lua</File>
     <File>modules/spy_info/additions/cui_spy_info.xml</File>
     <File>modules/trade_panel/base/tradeoriginchooser.lua</File>
