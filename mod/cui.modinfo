@@ -147,8 +147,6 @@
       <File>modules/unit_list/additions/cui_unitlist_screen.xml</File>
       <File>modules/victory_tracking/additions/cui_victory_tracking.lua</File>
       <File>modules/victory_tracking/additions/cui_victory_tracking.xml</File>
-      <File>modules/world_tracker/additions/cui_city_status.lua</File>
-      <File>modules/world_tracker/additions/cui_city_status.xml</File>
       <File>modules/_log/additions/cui_gameinfo.lua</File>
       <File>modules/_log/additions/cui_log.lua</File>
       <File>modules/_log/additions/cui_log.xml</File>
@@ -165,7 +163,6 @@
       <File>modules/unit_list/additions/cui_unitlist_button.xml</File>
       <File>modules/unit_list/additions/cui_unitlist_screen.xml</File>
       <File>modules/victory_tracking/additions/cui_victory_tracking.xml</File>
-      <File>modules/world_tracker/additions/cui_city_status.xml</File>
       <File>modules/_log/additions/cui_log.xml</File>
       <File>modules/_options/additions/cui_options_menu.xml</File>
     </AddUserInterfaces>
@@ -256,8 +253,6 @@
     <File>modules/victory_tracking/additions/cui_victory_tracking.lua</File>
     <File>modules/victory_tracking/additions/cui_victory_tracking.xml</File>
     <File>modules/victory_tracking/support/cui_victory_support.lua</File>
-    <File>modules/world_tracker/additions/cui_city_status.lua</File>
-    <File>modules/world_tracker/additions/cui_city_status.xml</File>
     <File>modules/world_tracker/base/statusmessagepanel.lua</File>
     <File>modules/world_tracker/base/worldtracker.lua</File>
     <File>modules/world_tracker/base/worldtracker.xml</File>

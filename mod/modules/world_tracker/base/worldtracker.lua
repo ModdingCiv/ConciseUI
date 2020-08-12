@@ -1051,18 +1051,6 @@ function CuiLogPanelSetup()
 end
 
 -- ---------------------------------------------------------------------------
-function CuiTrackPanelSetup()
-    cui_TrackBar.WonderIcon:SetTexture(IconManager:FindIconAtlas("ICON_DISTRICT_WONDER", 32))
-    cui_TrackBar.ResourceIcon:SetTexture(IconManager:FindIconAtlas("ICON_DIPLOACTION_REQUEST_ASSISTANCE", 38))
-    cui_TrackBar.BorderIcon:SetTexture(IconManager:FindIconAtlas("ICON_DIPLOACTION_OPEN_BORDERS", 38))
-    cui_TrackBar.TradeIcon:SetTexture(IconManager:FindIconAtlas("ICON_DIPLOACTION_VIEW_TRADE", 38))
-    cui_TrackBar.TempAIcon:SetTexture(IconManager:FindIconAtlas("ICON_DIPLOACTION_DECLARE_SURPRISE_WAR", 38))
-    cui_TrackBar.TempBIcon:SetTexture(IconManager:FindIconAtlas("ICON_DIPLOACTION_ALLIANCE", 38))
-    cui_TrackBar.CityIcon:SetTexture(IconManager:FindIconAtlas("ICON_DISTRICT_CITY_CENTER", 32))
-    cui_TrackBar.CuiCityManager:RegisterCallback(Mouse.eLClick, CuiOnCityManager)
-end
-
--- ---------------------------------------------------------------------------
 function CuiOnPopulationChanged(isChanged)
     CuiChangeIconColor(cui_TrackBar.CityIcon, isChanged)
 end
@@ -1100,28 +1088,6 @@ function CuiLogCounterReset()
 end
 
 -- ---------------------------------------------------------------------------
-function CuiTrackerRefresh()
-    local localPlayer = Players[Game.GetLocalPlayer()]
-    if localPlayer == nil then
-        return
-    end
-
-    wonderData = GetWonderData()
-    resourceData = GetResourceData()
-    borderData = GetBorderData()
-    tradeData = GetTradeData()
-
-    RefreshWonderToolTip(cui_TrackBar.WonderIcon)
-    RefreshResourceToolTip(cui_TrackBar.ResourceIcon)
-    RefreshBorderToolTip(cui_TrackBar.BorderIcon)
-    RefreshTradeToolTip(cui_TrackBar.TradeIcon)
-
-    CuiChangeIconColor(cui_TrackBar.ResourceIcon, resourceData.Active)
-    CuiChangeIconColor(cui_TrackBar.BorderIcon, borderData.Active)
-    CuiChangeIconColor(cui_TrackBar.TradeIcon, tradeData.Active)
-end
-
--- ---------------------------------------------------------------------------
 function CuiOnLogCheckClick()
     m_useGossipLog = Controls.GossipLogCheck:IsChecked()
     m_useCombatLog = Controls.CombatLogCheck:IsChecked()
@@ -1134,9 +1100,6 @@ end
 
 -- ===========================================================================
 function CuiInit()
-    ContextPtr:BuildInstanceForControl("CuiTrackerInstance", cui_TrackBar, Controls.PanelStack)
-    CuiTrackPanelSetup()
-
     ContextPtr:BuildInstanceForControl("GossipLogInstance", cui_GossipPanel, Controls.PanelStack)
     ContextPtr:BuildInstanceForControl("CombatLogInstance", cui_CombatPanel, Controls.PanelStack)
     CuiLogPanelSetup()
@@ -1145,16 +1108,8 @@ function CuiInit()
     Events.StatusMessage.Add(CuiUpdateLog)
     Events.LocalPlayerTurnEnd.Add(CuiLogCounterReset)
 
-    -- Tracker Events
-    Events.ImprovementAddedToMap.Add(CuiTrackerRefresh)
-    Events.ImprovementRemovedFromMap.Add(CuiTrackerRefresh)
-    Events.LoadGameViewStateDone.Add(CuiTrackerRefresh)
-    Events.LocalPlayerTurnBegin.Add(CuiTrackerRefresh)
-    LuaEvents.DiplomacyActionView_ShowIngameUI.Add(CuiTrackerRefresh)
-
     -- Refresh
     CuiLogPanelRefresh()
-    CuiTrackerRefresh()
 
     LuaEvents.CuiLogSettingChange.Add(CuiLogPanelRefresh)
     LuaEvents.CuiPlayerPopulationChanged.Add(CuiOnPopulationChanged)
