@@ -3,7 +3,7 @@
 
 <Context>
   <Container ID="CuiVictoryTracking" Size="68,68" Anchor="L,B" Offset="10,-6">
-    <Stack ID="VictoryButtonStack" Offset="72,-3" Anchor="L,T" StackGrowth="Right" />
+    <Stack ID="VictoryButtonStack" Offset="0,-3" Anchor="L,T" StackGrowth="Right" />
   </Container>
 
   <ToolTipType Name="CuiVictoryTT">
