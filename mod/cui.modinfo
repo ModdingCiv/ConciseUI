@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Mod id="5f504949-398a-4038-a838-43c3acc4dc10" version="1.5.7">
   <Properties>
-    <Name>[COLOR_Civ6LightBlue]Concise UI[ENDCOLOR]</Name>
+    <Name>[COLOR_Civ6LightBlue]Another Concise UI[ENDCOLOR]</Name>
     <Teaser>For a better gaming experience.</Teaser>
     <Description>Concise UI greatly improves the game experience by modifying the vanilla UI and adding new UI elements to the game.[NEWLINE][NEWLINE]Game Version: 1.0.1.501 (504666)</Description>
     <Authors>eudaimonia, Kevin van Rijn</Authors>
